@@ -1,0 +1,52 @@
+
+body {
+    background-image: url(/assets/img/fondo6.jpg);
+    height: 100vh;
+}
+
+header .profile-link a:hover {
+    color: #dddcf3;
+    transition: all 0.2s cubic-bezier(0.76, 0.26, 0.56, 0.66);
+}
+
+main a {
+    box-shadow: 0 3px 0 0 #12122c, 0 4px 4px -1px rgb(0 0 0 / 60%), 0 4px 6px 1px rgb(0 0 0 / 30%), 0 1px 2px 1px rgb(0 0 0 / 0%) inset, 0 18px 32px -2px rgb(255 255 255 / 10%) inset;
+    background-image: linear-gradient(-45deg, #0e0e26, #19173c );
+    cursor: pointer;
+}
+
+main a:hover{
+    box-shadow: 0 3px 0 0 #12122c, 0 6px 4px -1px rgb(0 0 0 / 10%), 0 4px 16px rgb(0 0 0 / 10%), 0 1px 2px 1px rgb(0 0 0 / 0%) inset, 0 18px 32px -2px rgb(255 255 255 / 14%) inset;
+}
+
+main a:active {
+    box-shadow: 0 0px 0 0 #12122c, 0 3px 0 0 rgb(0 0 0 / 0%), 0 4px 16px rgb(0 0 0 / 0%), 0 1px 2px 1px rgb(0 0 0 / 50%) inset, 0 -18px 32px -2px rgb(255 255 255 / 10%) inset;
+    transition: 0s;
+    color: #12122c;
+    text-shadow: 0 1px 0 rgb(255 255 255 / 30%);
+}
+
+
+
+main h1 {
+    margin-bottom: 115px;
+    font-size: 2.5rem;
+}
+
+
+header .nav-logo-container p {
+    font-size: 1.5rem;
+}
+
+header .profile-link a {
+    font-size: 1.4rem;
+}
+
+footer .footer-icons-container a:hover {
+    transform: scale(1.5);
+    transition: 0.7s;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: 0px 1px 10px 1px #19173c ;
+    border-radius: 50%;
+}
+

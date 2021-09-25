@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+    display: inline;
+    color: #ffffff;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-image: url(/assets/img/cellfond1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 85vh;
+    max-height: 491vh;
+}
+
+header {
+    width: 100%;
+    min-width: 320px;
+    height: 70px;
+}
+
+header nav {
+    display: flex;
+    width: 100%;
+    min-width: 320px;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .nav-logo-container {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+header .nav-logo-container img {
+    width: 40px;
+    height: 40px;
+    filter: grayscale(50%);
+}
+
+header .nav-logo-container p {
+    margin-left: 10px;
+    color: #dfeeef;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+header .profile-link {
+    width: auto;
+    height: auto;
+    margin-right: 20px;
+    padding-top: 10px;
+}
+
+header .profile-link a{
+    border-bottom: 1px solid #ffffff;
+    font-size: 1.2rem;
+}
+
+main {
+    width: 100%;
+    min-width: 320px;
+    height: 65%;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+main h1 {
+    color: #ffffff;
+}
+
+main a {
+    width: auto;
+    height: 35px;
+    padding: 0.5em 1.6em;
+    margin-bottom: 15px;
+    border-radius: 0.2666666667em;
+    box-shadow: 0 3px 0 0 #022638, 0 4px 4px -1px rgb(0 0 0 / 60%), 0 4px 6px 1px rgb(0 0 0 / 30%), 0 1px 2px 1px rgb(0 0 0 / 0%) inset, 0 18px 32px -2px rgb(255 255 255 / 10%) inset;
+    background-image: linear-gradient(-45deg, #053e52, #04637a );
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.7rem;
+}
+
+
+footer {
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+}
+
+footer .footer-icons-container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+}
+
+footer .footer-icons-container .icons {
+    width: 150px;
+    height: auto;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: center;
+}
+
+
+footer .footer-icons-container a {
+    font-size: 2rem;
+    width: auto;
+    height: auto;
+}
