@@ -1,0 +1,16 @@
+nav .logo {
+    font-size: 3rem;
+    padding: 0 0 0 50px;
+}
+nav .logo--color2 {
+   padding: 0 0 0 0;
+}
+nav .logo--color3 {
+   padding: 0 0 0 0;
+}
+nav .logo--color4 {
+   padding: 0 50px 0 0;
+}
+nav ul li a {
+    font-size: 1.6rem;
+}

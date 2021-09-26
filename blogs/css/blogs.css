@@ -1,18 +1,21 @@
 :root {
     /* Colores */
-    --color-white: #DF40F5;
-    --color-black: #B542FF;
-    --color-primary: #7D48E8;
+    --color-rosado: #DF40F5;
+    --color-rosetViolet: #B542FF;
+    --color-Violet: #7D48E8;
     --color-secondary: #181d20;
     --color-nav-text: #252422;
     --color-terciary: #4E42FF;
     --color-cuaternary: #4065F5;
+    --color-elegant: #dbdbdb;
+    --color-elegantBlack: #000000;
     }
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
 }
 
 html {
@@ -28,17 +31,32 @@ ul {
 }
 
 nav {
-    background: #0082e6;
+    background: var(--color-elegant);
     width: 100%;
     height: 80px;
 }
  nav .logo {
-     color: #ffffff;
+     color: var(--color-rosado);
      font-size: 3.5rem;
      line-height: 8rem;
-     padding: 0 100px;
-     font-weight: bold;
+     padding: 0 0 0 100px;
+     font-family: 'Roboto', sans-serif;
+     font-style: normal;
+     font-weight: 500;
  }
+
+nav .logo--color2 {
+    color: var(--color-rosetViolet);
+    padding: 0 0 0 0;
+}
+nav .logo--color3 {
+    color: var(--color-Violet);
+    padding: 0 0 0 0;
+}
+nav .logo--color4 {
+    color: var(--color-secondary);
+    padding: 0 100px 0 0;
+}
 
  nav ul {
      float: right;
@@ -52,7 +70,7 @@ nav {
  }
 
  nav ul li a {
-     color: #ffffff;
+     color: var(--color-elegantBlack);
      font-size: 1.7rem;
      padding: 7px 13px;
      border-radius: 3px;
@@ -60,13 +78,13 @@ nav {
  }
 
  a .active, a:hover {
-     background: #1b9bff;
+     background: var(--color-nav-text);
      transition: .5s;
  }
  
  .checkbtn {
      font-size: 3rem;
-     color: #ffffff;
+     color: var(--color-elegantBlack);
      float: right;
      line-height: 8rem;
      margin-right: 40px;
@@ -78,46 +96,12 @@ nav {
      display: none;
  }
 
- @media (max-width: 952px) {
-     label.logo {
-         font-size: 3rem;
-         padding-left: 50px;
-     }
-     nav ul li a {
-         font-size: 1.6rem;
-     }
- }
 
- @media (max-width: 858px) {
-     .checkbtn {
-         display: block;
-     }
-     ul {
-         position: fixed;
-         width: 100%;
-         height: 100vh;
-         background: #2c3e50;
-         top: 80px;
-         left: -100%;
-         text-align: center;
-         transition: all .5s;
-     }
-     nav ul li {
-         display: block;
-         margin: 30px 0;
-         line-height: 3rem;
-     }
-     nav ul li a {
-         font-size: 2rem;
-     }
-     a:hover, a.active {
-         background: none;
-         color: #0082e6;
-     }
-     #check:checked ~ ul {
-         left: 0;
-     }
- }
+
+
+
+
+
 /* header .header__nav {
     width: 100%;
     height: auto;
