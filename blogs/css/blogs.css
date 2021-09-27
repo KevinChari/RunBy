@@ -81,6 +81,20 @@ nav .logo--color4 {
      text-transform: uppercase;
  }
 
+ nav .nav__link-about {
+     display: inline-block;
+     line-height: 8rem;
+     margin: 0 40px 0 0;
+ }
+
+ nav .nav__link-about a {
+     color: var(--color-elegantBlack);
+     font-size: 1.7rem;
+     padding: 7px 13px;
+     border-radius: 3px;
+     text-transform: uppercase;
+ }
+
  header .header__link-news {
     color: var(--color-elegantBlack);
     font-size: 1.7rem;

@@ -22,9 +22,21 @@ nav ul li {
     margin: 30px 0;
     line-height: 3rem;
 }
+
 nav ul li a {
     font-size: 2rem;
 }
+
+nav .nav__link-about {
+    display: block;
+    margin: 30px 0;
+    line-height: 3rem;
+}
+
+nav .nav__link-about a {
+    font-size: 2rem;
+}
+
 header .header__link-news {
     display:inline-block;
     margin: 30px 0;
