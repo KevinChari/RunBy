@@ -58,6 +58,7 @@ a:hover, a.active {
     width: 100%;
     height: auto;
     padding: 10px;
+    margin-bottom: 45px;
     text-align: center;
 }
 
@@ -76,19 +77,35 @@ a:hover, a.active {
      margin-bottom: 26px;
      color: var(--color-rosetViolet);
  }
- .header__container .header__section-first button {
-    background-image: linear-gradient(180deg,#9c27b0 0,#512da8);
-    background-image: -webkit-linear-gradient(93deg,#512da8,#9c27b0);
-    outline: none;
-    border: none;
-    width: 90%;
+ .header__container .header__section-first div {
+    width: 95%;
     height: 50px;
+    margin: 0 auto;
     border-radius: 100px;
+    background-image: linear-gradient(180deg,var(--color-rosetViolet) 0,var(--color-Violet));
+    background-image: -webkit-linear-gradient(93deg,var(--color-Violet),var(--color-rosetViolet));
  }
 
- .header__container .header__section-first button a {
+ .header__container .header__section-first div a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: var(--familia-letras);
     color: var(--color-elegant);
     font-weight: 800;
     font-size: 1.6rem;
+ }
+
+ .header__section-second {
+     width: 100%;
+     padding: 0 20px 40px 20px;
+     margin-bottom: 35px;
+ }
+
+ .header__section-second img {
+     width: 100%;
+     height: auto;
+     margin-top: 45px;
  }
