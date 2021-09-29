@@ -7,8 +7,9 @@
     --color-nav-text: #252422;
     --color-terciary: #4E42FF;
     --color-cuaternary: #4065F5;
-    --color-elegant: #f4edf4;
+    --color-elegant: #ffffff;
     --color-elegantBlack: #000000;
+    --familia-letras: muli, sans-serif;
     }
 
 * {

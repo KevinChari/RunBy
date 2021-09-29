@@ -1,4 +1,8 @@
 
+nav .logo {
+    padding: 0 0 0 0px;
+}
+
 nav .logo--color4 {
     margin-right: 30px;
 }
@@ -11,7 +15,7 @@ ul {
     position: fixed;
     width: 100%;
     height: 100vh;
-    background: #f4edf4;
+    background: #ffffff;
     top: 100px;
     left: -100%;
     text-align: center;
@@ -34,7 +38,7 @@ nav .nav__link-about {
 }
 
 nav .nav__link-about a {
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 
 header .header__link-news {
@@ -44,8 +48,47 @@ header .header__link-news {
 }
 a:hover, a.active {
     background: none;
-    color: #0082e6;
+    color: var(--color-Violet);
 }
 #check:checked ~ ul {
     left: 0;
 }
+
+.header__container .header__section-first {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.header__container .header__section-first h2 {
+    font-size: 3rem;
+    font-family: var(--familia-letras);
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+ .header__container .header__section-first p {
+     font-size: 1.4rem;
+     font-family: var(--familia-letras);
+     font-weight: 600;
+     line-height: 1.4;
+     margin-bottom: 26px;
+     color: var(--color-rosetViolet);
+ }
+ .header__container .header__section-first button {
+    background-image: linear-gradient(180deg,#9c27b0 0,#512da8);
+    background-image: -webkit-linear-gradient(93deg,#512da8,#9c27b0);
+    outline: none;
+    border: none;
+    width: 90%;
+    height: 50px;
+    border-radius: 100px;
+ }
+
+ .header__container .header__section-first button a {
+    font-family: var(--familia-letras);
+    color: var(--color-elegant);
+    font-weight: 800;
+    font-size: 1.6rem;
+ }
