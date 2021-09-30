@@ -32,6 +32,7 @@ header {
 }
 
 header nav {
+    position: fixed;
     display: flex;
     width: 100%;
     min-width: 320px;
