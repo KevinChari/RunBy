@@ -1,6 +1,7 @@
 
 header nav {
     position: fixed;
+    z-index: 50;
 }
 
 
@@ -43,7 +44,7 @@ nav .nav__link-about {
 }
 
 nav .nav__link-about a {
-    font-size: 1.7rem;
+    font-size: 1.9rem;
 }
 
 header .header__link-news {
@@ -169,4 +170,68 @@ a:hover, a.active {
      font-family: var(--familia-letras);
      font-size: 1.4rem;
      line-height: 1.4;
+ }
+
+ .main__team-information .container__team-information {
+     width: 100%;
+     height: auto;
+     padding: 0 15px 25px 15px;
+     text-align: center;
+ }
+
+ .container__team-information .team__information-tittle {
+     padding-top: 100px;
+     font-family: var(--familia-letras);
+     font-size: 2.4rem;
+     font-weight: 700;
+     line-height: 3rem;
+ }
+
+ .container__team-information .team__information-body {
+    font-family: var(--familia-letras);
+    font-size: 1.4rem;
+    letter-spacing: .05rem;
+    line-height: 2.4rem;
+    color: var(--parrafos);
+ }
+
+ .container__team-information .information__number-indicator {
+     padding-top: 30px;
+     font-family: var(--familia-letras);
+     font-size: 2.4rem;
+     line-height: 3rem;
+     font-weight: 700;
+ }
+
+ .main__team-information .main__container-img-team {
+     position: relative;
+     padding: 0 20px 25px 20px;
+ }
+
+.main__container-img-team p {
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 76px 100px 200px 39px;
+    -moz-border-radius: 76px 100px 200px 39px;
+    -webkit-border-radius: 76px 100px 200px 39px;
+    background-color:var(--color-elegant);
+    color: var(--color-rosado);
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+    font-family: var(--familia-letras);
+    font-size: 1.3rem;
+    font-weight: bold;
+    bottom: 130px;
+    left: calc(40% - 78px);
+}
+
+ .main__team-information .main__container-img-team img {
+     width: 100%;
+     height: auto;
+     z-index: 10;
  }
