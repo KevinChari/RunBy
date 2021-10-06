@@ -120,7 +120,7 @@ a:hover, a.active {
  main {
      width: 100%;
      height: auto;
-     padding: 35px 0 35px 0;
+     padding: 35px 0 0 0;
  }
 
  .main__information-cards {
@@ -315,26 +315,34 @@ a:hover, a.active {
 
 .main__homeworks-download .homeworks__download-img-container {
     width: 100%;
+    max-width: 736px;
     height: auto;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
     padding: 40px 0 25px 0; 
 }
 
 .homeworks__download-img-container .homeworks__download-img-cards {
+    max-width: 330px;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
     box-shadow: 0px 0px 10px #CCCCCC;
     border-radius: 0 0 20px 20px;
-    /* padding: 0 15px 25px 15px; ;
-    margin-bottom: 30px; */
+    margin-bottom: 30px;
 }
 
 .homeworks__download-img-cards img {
+    width: 100%;
     height: 300px;
 }
 
 .homeworks__download-img-cards .download__img-description {
     width: 100%;
     height: auto;
+    position: relative;
     border-radius: 20px;
     background-color: var(--color-Violet);
 }
@@ -403,4 +411,54 @@ a:hover, a.active {
     font-size: 1.1rem;
     font-weight: 600;
     color: var(--color-elegant);
+}
+
+.main__section-presentation {
+    width: 100%;
+    height: auto;
+    background-color: var(--color-Violet);
+}
+
+.main__section-presentation .presentation__container {
+    max-width: 565px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 15px 100px 15px;
+}
+
+.presentation__container h2 {
+    font-family: var(--familia-letras);
+    font-size: 2.4rem;
+    line-height: 3rem;
+    font-weight: 800;
+    color: var(--color-elegant);
+    text-align: center;
+}
+
+.presentation__container button {
+    width: 75%;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: var(--color-rosado);
+    filter: invert(10%);
+}
+
+.presentation__container button a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    font-family: var(--familia-letras);
+    color: var(--color-elegant);
+    font-weight: 400;
+    font-size: 1.8rem;
 }
