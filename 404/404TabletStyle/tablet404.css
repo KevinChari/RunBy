@@ -1,0 +1,19 @@
+
+main h1 {
+    max-width: 520px;
+    font-size: 3.5rem;
+}
+
+
+main .img-main {
+    background-image: url(/assets/img/gif2.gif);
+}
+
+
+.svg-wrapper {
+    bottom: 100px;
+}
+
+#text a {
+    font-size: 1.6rem;
+}
