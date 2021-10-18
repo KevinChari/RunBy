@@ -386,21 +386,21 @@ nav .logo--color4 {
     margin-top: 30px;
 }
 
-.main__homeworks-download {
+#main__homeworks-download {
     width: 100%;
     height: auto;
     padding: 50px 15px 50px 15px; 
     text-align: center;
 }
 
-.main__homeworks-download .homeworks__download-tittle {
+#main__homeworks-download .homeworks__download-tittle {
     font-family: var(--familia-letras);
     font-size: 2.4rem;
     font-weight: 800;
     line-height: 3rem;
 }
 
-.main__homeworks-download .homeworks__download-body {
+#main__homeworks-download .homeworks__download-body {
     margin: 0 auto;
     max-width: 430px;
     padding-top: 40px;
@@ -411,7 +411,7 @@ nav .logo--color4 {
     color: var(--color-Violet);
 }
 
-.main__homeworks-download .homeworks__download-img-container {
+#main__homeworks-download .homeworks__download-img-container {
     width: 100%;
     max-width: 736px;
     height: auto;
